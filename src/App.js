@@ -11,11 +11,11 @@ import { PrivateRoutes } from "./PrivateRoutes";
 import PageNotFound from "./pages/PageNotFound";
 
 // axios.defaults.baseURL = "http://localhost:5000/"; //
-axios.defaults.baseURL = "https://quepplin.herokuapp.com/";
-axios.defaults.headers.post["Accept"] = "application/json";
-axios.defaults.headers.post["Content-Type"] = "application/json";
+// axios.defaults.baseURL = "https://quepplin.herokuapp.com/";
+// axios.defaults.headers.post["Accept"] = "application/json";
+// axios.defaults.headers.post["Content-Type"] = "application/json";
 
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 
 export const userContext = createContext();
 const App = () => {
