@@ -33,7 +33,7 @@ const SideBar = () => {
 //           </Link>
 //         ))}
 
-      {(role === "Manager" || role === "Admin") && (
+     {role === "Manager" && (
         <Link to="/info">
           <Menu item="Info" />
         </Link>
