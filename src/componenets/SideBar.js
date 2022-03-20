@@ -21,17 +21,17 @@ const SideBar = () => {
       </Link>
 
       {role === "Admin" && (
-        <Link to="/user">
+        <Link to="/users">
           <Menu item="User" />
         </Link>
       )}
 
-      {role === "Admin" ||
-        (role === "User" && (
-          <Link to="/users">
-            <Menu item="User" />
-          </Link>
-        ))}
+//       {role === "Admin" ||
+//         (role === "User" && (
+//           <Link to="/users">
+//             <Menu item="User" />
+//           </Link>
+//         ))}
 
       {(role === "Manager" || role === "Admin") && (
         <Link to="/info">
