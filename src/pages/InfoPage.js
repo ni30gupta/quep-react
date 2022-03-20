@@ -5,7 +5,7 @@ const InfoPage = () => {
   const user = useContext(userContext);
   const navigate = useNavigate();
   React.useEffect(() => {
-    if (user.role !== "Admin" || user.role !== "Manager") {
+    if (user.role !== "Manager") {
       navigate("/home");
     }
   }, []);
